@@ -1,0 +1,76 @@
+
+.barra-nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D0B8A8;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin: auto;
+    border-top: 10px solid #F5EFE6;
+  }
+  
+  .shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 5px;
+    flex: 1; 
+  }
+  
+  .shop li {
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .shop li a {
+    text-decoration: none;
+    color: #F5EFE6;
+  }
+  
+  .sing-in {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: auto; 
+    padding-right: 20px;
+  }
+  
+  .sing-in li {
+    list-style-type: none;
+    padding: 10px;
+    align-items: flex-end;
+    font-size: 13px;
+    color: #F5EFE6;
+  }
+  
+  .sing-in li a {
+    text-decoration: none;
+    color: #F5EFE6;
+  }
+  
+  .cont-logo {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .cart{
+      padding-right: 40px;
+      text-decoration: none;
+  }
+  .cart a{
+    color: #F5EFE6;
+
+  }
